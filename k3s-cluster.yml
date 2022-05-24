@@ -1,0 +1,6 @@
+---
+- hosts: all
+  become: yes
+  roles:
+    - docker-ce
+    - k3s-cluster
